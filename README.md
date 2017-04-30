@@ -1,2 +1,2 @@
 # FinalProject_PracticalMachineLearning
-Thi
+This repository contein mi report of the course.
