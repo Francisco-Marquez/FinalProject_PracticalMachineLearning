@@ -1,0 +1,32 @@
+---
+title: "Practical Machine Learninng - Final Project"
+author: "Francisco"
+date: "29 de abril de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Loading the Training and Testing data
+
+```{r, echo=FALSE}
+# getwd();
+setwd("D:/FRANCISCO MARQUEZ M/ESTUDIOS/COURSERA/Practical Machine Learning - Jonh Hopkins/Final_Project");
+train = read.csv("pml-training.csv");
+test = read.csv("pml-testing.csv");
+```
+
+Luego:
+
+```{r, echo=TRUE}
+#---------------- Exploracion y Limpieza ----------------#
+
+# Resumen del "train"
+dim(train);   #(19622x160)
+str(train, list.len=20);
+summary(train);
+
+```
+
