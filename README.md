@@ -1,2 +1,2 @@
 # FinalProject_PracticalMachineLearning
-This repository contein mi report of the course.
+This repository contains my report of  final project of the course "Practical Machine Learning" dictaded by "Johns Hopkins University" at Coursera.
